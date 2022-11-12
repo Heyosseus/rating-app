@@ -1,0 +1,57 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.img{
+    background-image: url(../../assets/illustration-thank-you.svg);
+    width: 162px;
+    height: 106px;
+    margin-right: 41px;
+    margin-top: 38px;
+}
+
+.btn{
+    width: 198px;
+    height: 32px;
+    border-radius: 22.5px;
+    background: var(--dark-blue);
+    color: white;
+    font-size: 15px;
+    font-family: var(--overpass);
+    font-weight: 700;
+    letter-spacing: 2px;    
+    font-size: 15px;
+    border: none;
+    margin-top: 30px;
+    margin-top: 38px;
+}
+
+.text{
+    font-size: 14px;
+    color: var(--orange);
+    font-weight: 400;
+}
+.heading{
+    width: 279px;
+    height: 37px;
+    color: var(--white);
+    font-size: 24px;
+    line-height: 30px;
+    font-family: var(--overpass);
+    font-weight: 700;
+    text-align: center;
+    margin-top: 28px;
+}
+
+.paragraph{
+    width: 340px;
+    font-family: var(--overpass);
+    font-weight: 400;
+    color: var(--light-grey);
+    font-size: 15px;
+    line-height: 24px;
+    margin-top: 10px;
+    text-align: center;
+}
