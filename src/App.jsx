@@ -4,14 +4,25 @@ import Page from './components/SecondPage/Page';
 import { useState } from 'react';
 
 function App() {
-  const [count, setCount] = useState('')
-  const[display, setDisplay] = useState(true)
+  const [count, setCount] = useState(null)
+  const [display, setDisplay] = useState(true)
+  
+  
   
   return (
     <div className={styles.container}>
       <div className={styles.card}>
-        {display ? <Main display={display} setDisplay={ setDisplay } /> : <Page count={count}
-          setCount={setCount} />}
+        {display
+          ?
+          <Main display={display}
+            setDisplay={setDisplay}
+            count={count}
+            setCount={setCount}
+          />
+          
+          :
+          <Page count={count}
+          />}
       </div>
     </div>
   );

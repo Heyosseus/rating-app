@@ -1,7 +1,8 @@
 import React from 'react'
 import page from './Page.module.css'
 import { useState } from 'react'
-const Page = ({count, setCount}) => {
+const Page = ({ count}) => {
+  
   return (
       <div className={page.container}>
           <div className={page.img}></div>
